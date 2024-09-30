@@ -20,6 +20,7 @@ namespace test_02_average
             Console.WriteLine("Среднее арифметическое = " + average);
             Console.WriteLine("Среднее геометрическое = " + geom);
             Console.ReadKey();
+
         }
     }
 }
