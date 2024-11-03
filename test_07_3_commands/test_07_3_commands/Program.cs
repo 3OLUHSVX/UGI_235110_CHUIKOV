@@ -76,7 +76,6 @@ namespace Task07_3
             DecodePosition(startPosition, out startColumn, out startRow);
             DecodePosition(movePosition, out moveColumn, out moveRow);
 
-            // Ферзь может двигаться по вертикали, горизонтали или диагонали
             return startColumn == moveColumn ||
                    startRow == moveRow ||
                    Math.Abs(startColumn - moveColumn) == Math.Abs(startRow - moveRow);
