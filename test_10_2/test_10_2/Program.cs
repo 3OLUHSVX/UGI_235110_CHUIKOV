@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace GeometricMeanTask
+namespace test_10_2
 {
     internal class Program
     {
